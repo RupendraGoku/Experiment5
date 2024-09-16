@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <style>
+        body {
+            background-image: url(./Images/10.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        #forget {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(5px);
+            border-radius: 25px;
+            padding: 5%;
+            margin: 5% auto; /* Centered and adjusted margin */
+            max-width: 50%; /* Reduced container size by half */
+        }
+
+        #forget input {
+            outline: none;
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid dodgerblue;
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+  
+
+        #forget button {
+            border: none;
+            background-color: dodgerblue;
+            color: #fff;
+            font-weight: 500;
+            padding: 15px;
+            font-size: 18px;
+            width: 100%;
+            border-radius: 30px;
+            margin-top: 20px;
+            transition: .5s;
+        }
+
+        #forget button:hover {
+            box-shadow: 0px 8px 15px -10px rgb(61, 61, 61);
+            transform: translate(0px, -3px);
+        }
+    </style>
+</head>
+<body>
+    <div class="col-md-6 p-5" id="forget">
+        <h1 class="display-4 text-center" style="font-size: 30px;">Forget Password</h1>
+        <form class="d-flex justify-content-center mt-4">
+            <div class="w-75">
+                <h6 class="information-text" style="font-size: 20px;">Enter your registered email to reset your password.</h6>
+                <div class="form-group">
+                    <input type="email" name="user_email" id="user_email">
+                </div>
+                <button type="button" onclick="showSpinner()">Reset Password</button>
+                <div class="footer">
+                    <h5>New here? <a href="index.html" id="registerLink" style="font-size: 18px;">Sign Up.</a></h5>
+                    <h5>Already have an account? <a href="index.html" id="loginLink" style="font-size: 18px;">Log In.</a></h5>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+    color: #000; /* Set text color to black */
+    font-family: 'Arial', sans-serif;
+    background: url('https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed;
+}
+
+.container {
+    width: 400px; /* Make the container wider */
+    background-color: rgba(255, 255, 255, 0.9); /* Increased opacity for better readability */
+    padding: 20px; /* Added padding */
+    display: flex;
+    flex-direction: column; /* Changed to column layout */
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #000;
+    max-height: 90vh; /* Added max height */
+    overflow-y: auto; /* Added scroll for overflow content */
+}
+
+.container form {
+    width: 100%;
+}
+
+.container table {
+    width: 100%;
+    margin-bottom: 20px; /* Added margin bottom */
+}
+
+.container h3 {
+    margin: 20px 0; /* Added margin */
+}
+
+.container form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white; /* Set text color to white */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.container form input[type="submit"]:hover {
+    background-color: #45a049;
+}

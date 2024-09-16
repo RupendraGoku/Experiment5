@@ -1,0 +1,12 @@
+[
+    { "id": 1, "name": "Goku", "position": "Software Developer", "salary": 50000 },
+    { "id": 2, "name": "Shivam", "position": "Developer", "salary": 90000 },
+    { "id": 3, "name": "Ashutosh", "position": "Software Developer", "salary": 60000 },
+    { "id": 4, "name": "Sumit", "position": "Software Developer", "salary": 70000 },
+    { "id": 5, "name": "Gohan", "position": "Team Manager", "salary": 40000 },
+    { "id": 6, "name": "Friza", "position": "Leader", "salary": 75000 },
+    { "id": 7, "name": "Anurag", "position": "Network Architect", "salary": 55000 },
+    { "id": 8, "name": "Cell", "position": "Database Analyst", "salary": 65000 },
+    { "id": 9, "name": "Goten", "position": "Big Data Engineer", "salary": 83000 },
+    { "id": 10,"name": "Sonu", "position": "Back-End Developer", "salary": 73000 }
+]

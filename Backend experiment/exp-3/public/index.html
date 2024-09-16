@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <!-- Registration Form -->
+            <form method="POST" action="/students">
+                <table width="100%" border="1">
+                    <tr>
+                        <td colspan="2"><h1>Employee Registration</h1></td>
+                    </tr>
+                    <tr>
+                        <td>Employee ID</td>
+                        <td><input type="text" name="id" id="id" required></td>
+                    </tr>
+                    <tr>
+                        <td>Firstname</td>
+                        <td><input type="text" name="fname" id="fname" required></td>
+                    </tr>
+                    <tr>
+                        <td>Lastname</td>
+                        <td><input type="text" name="lname" id="lname" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;"><input type="submit" value="Submit"></td>
+                    </tr>
+                </table>
+            </form>
+
+            <!-- Student List -->
+            <h3>Employee List</h3>
+            <table id="studentsTable" border="1" width="100%">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Student data will be inserted here -->
+                </tbody>
+            </table>
+
+            <!-- Update Form -->
+            <h3>Update Employee</h3>
+            <form id="updateForm">
+                <label for="updateId">Employee ID:</label>
+                <input type="text" id="updateId" name="id" required><br>
+                <label for="updateFname">Firstname:</label>
+                <input type="text" id="updateFname" name="fname" required><br>
+                <label for="updateLname">Lastname:</label>
+                <input type="text" id="updateLname" name="lname" required><br>
+                <input type="submit" value="Update">
+            </form>
+
+            <!-- Delete Form -->
+            <h3>Delete Employee</h3>
+            <form id="deleteForm">
+                <label for="deleteId">Employee ID:</label>
+                <input type="text" id="deleteId" name="id" required><br>
+                <input type="submit" value="Delete">
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
